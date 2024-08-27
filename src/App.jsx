@@ -5,8 +5,6 @@ import SearchIcon from "./search.svg";
 import "./App.css";
 
 
-const API_KEY = process.env.REACT_APP_OMDB_API_KEY;
-
 const API_URL = `http://www.omdbapi.com?apikey=${API_KEY}`;
 
 const App = () => {
